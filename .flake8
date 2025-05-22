@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 160
+max-complexity = 13
+
+exclude = .git,__pycache__,build,dist,data,experiments,.venv
+per-file-ignores =
+    __init__.py:F401
+ignore =
+    ANN101,
+    Q000,
+    I201
